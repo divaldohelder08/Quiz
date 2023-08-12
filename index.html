@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Tempo:
+            <time id="time">50</time>
+        </p>
+        <p>
+            Ponto: <i id="pt">0</i>
+        </p>
+    </header>
+    <main>
+        <div id="inicio" class="inicio caixa">
+            <h2>Javascript Quiz</h2>
+            <p>Perguntas sobre javascript <br>para continuar pess iniciar</p>
+            <button id="bt-inicio" class="bt-inicio">
+                iniciar
+            </button>
+        </div>
+        <div id="caixa" hidden class="caixa">
+            <h2 id="pergunta-caixa"></h2>
+            <div id="opcoes">
+                <button id="opcao0" class="opcao"></button>
+                <button id="opcao1" class="opcao"></button>
+                <button id="opcao2" class="opcao"></button>
+                <button id="opcao3" class="opcao"></button>
+            </div>
+            <div id="resultado">
+                <hr>
+                <p id="resultado-text"></p>
+            </div>
+        </div>
+    </main>
+    <div id="fim"  class="fim">
+        <p>Parabens vc completou o jogo</p>
+        <button id="end" type="reset"><a href="">jogar novamente</a></button>
+    </div>
+    <audio src="bass_preview.mp3" id="audio"></audio>
+    <audio src="timer.wav" id="audio1"></audio>
+</body>
+<script src="js.js"></script>
+</html>
