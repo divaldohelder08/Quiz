@@ -19,7 +19,7 @@ Apenas um projecto do segundo trimestre da escola
 <div align="center">
   <br>
     <p align="centre">
-      <b>Visitors Count👋</b>
+      <b>Contagem de visitantas👋</b>
     </p>  
     <p align="center">
       <img align="center" src="https://profile-counter.glitch.me/{Calculadora-do-amor}/count.svg" />
