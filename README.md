@@ -10,9 +10,9 @@ Apenas um projecto do segundo trimestre da escola
 > Quiz de javacript
 
 ## Tecnologias
-- HTMl
-- CSS
-- JAVACRIPT
+- HTMl;
+- CSS;
+- JAVACRIPT;
 
 ## 💊Por favor deixe uma 🌟
 
